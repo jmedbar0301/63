@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="dY/MKz:6^2pXz?=P@pYZ">lista</variable><variable id="?B0BOMSV^ix4Qf4AT[v$">b</variable></variables><block type="device_forever" id="nklK+{LBFFI+OIVv4(Fx" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="X2g4+!Q{$tbv1y=uI46e"><field name="VAR" id="?B0BOMSV^ix4Qf4AT[v$">b</field><value name="VALUE"><block type="math_arithmetic" id="wB~dFcYcy%57(:4PfE|2"><field name="OP">MINUS</field><value name="A"><shadow type="math_number" id="WskY}-cgo~=qG7+_-UO6"><field name="NUM">255</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="xh!L(N${`JS+To*J`P#;"></block></value></block></value><next><block type="device_set_brightness" id="/VlzP*|dfFve/ZI:]AS9"><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow><block type="variables_get" id="%Jk_{K#/#9y3t?C4ADM!"><field name="VAR" id="?B0BOMSV^ix4Qf4AT[v$">b</field></block></value><next><block type="device_show_leds" id="-E/wn7w7XHGY3O[#GU@/"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></next></block></statement></block></xml>
